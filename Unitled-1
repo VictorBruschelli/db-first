@@ -1,0 +1,12 @@
+nome_tabella: auto usate in vendita 
+
+marca                     VARCHAR(50)         NOT_NULL
+modello                   VARCHAR(50)         NOT_NULL
+carburante                VARCHAR(30)         NOT_NULL
+potenza                   VARCHAR(20)         NOT_NULL
+anno                      YEAR                NOT_NULL
+km                        INT                 NOT_NULL
+prezzo                    DECIMAL(7,2)        NOT_NULL
+proprietari_precedenti    TINYINT             NOT_NULL
+Prima_immatricolazione    DATE                NULL
+Portiere                  TINYINT             NOT_NULL
